@@ -31,23 +31,15 @@ function Band() {
 
       
       <div className='flex flex-col items-center justify-center p-8'>
-          <h1 className="text-xl font-bold mb-4 mt-0 text-bn-gold font-montserrat">What's Included</h1>
+          <h1 className="text-xl font-bold mb-4 mt-0 text-bn-gold font-montserrat">Looking For A Band ?</h1>
+          <p className='font-raleway text-bn-gold text-center text pb-8'>
+           We have you covered, for a full band or just dhol. For enterances, parties, receptions, alongside DJ's or anything else.<br/> Send us a message today.
+          </p>
 
           <div className="flex flex-col items-center md:flex-row md:justify-center">
             <img src={img23} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
 
-            <ul className='text-white text-left'>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Experienced DJ</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Experienced Host</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Professional Sound System</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Turntables & Mixer</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Computer Controlled Moving Lights</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Gloss Pillars</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Haze Machine (Dependent on Venue Allowance)</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">£10m Public Liability Insurance</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">PAT Testing Certificate</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Tailored Music for your Event Stage (Optional Extra)</li>
-            </ul>
+           
           </div>
         </div>
 

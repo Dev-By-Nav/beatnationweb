@@ -35,11 +35,11 @@ function Custom() {
       <div className='flex flex-col items-center justify-center p-8'>
           <h1 className="text-xl font-bold mb-4 mt-0 text-bn-gold font-montserrat">Want something different ?</h1>
 
-          <p className='font-raleway text-white text pb-8'>
+          <p className='font-raleway text-bn-gold text-center text pb-8'>
             Want to bring a diiferent vision to life, send us a message through our form, send us a email or give us a call to share your ideas with our team to build the ultimate package, however big or small. Exactly how you want it.
           </p>
 
-          <div className="flex flex-col items-center md:flex-row md:justify-center">
+          <div className="flex flex-col items-center md:flex-row md:justify-center pb-10">
             <img src={img3} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
 
           </div>
