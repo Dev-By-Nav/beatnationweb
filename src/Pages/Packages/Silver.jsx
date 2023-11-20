@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
-import video from '../../assets/Silvervideo.MP4';
+import video from '../../assets/Silvervideo.mp4';
 import package2img from '../../assets/Packages/package2.jpg'
 
 import Footer from '../../Components/Footer';

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
-import video from '../../assets/video.MP4';
+import video from '../../assets/video.mp4';
 
 
 import img3 from '../../assets/Gallery/image3.jpeg';

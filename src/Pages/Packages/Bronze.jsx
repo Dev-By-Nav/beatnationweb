@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
-import video from '../../assets/video.MP4';
+import video from '../../assets/video.mp4';
 import package1img from '../../assets/Packages/package1.jpg'
 import Footer from '../../Components/Footer';
 
