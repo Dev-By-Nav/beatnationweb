@@ -3,10 +3,10 @@ import Navbar from '../Components/Navbar'
 import Images from '../Components/Images'
 import Footer from '../Components/Footer';
 import ReactPlayer from 'react-player';
-import video1 from '../assets/silvervideo.mp4'
-import video2 from '../assets/platinumvideo.mp4'
-import video3 from '../assets/video.mp4'
-import video4 from '../assets/tractorvideo.mp4'
+import video1 from '../assets/silvervideo.MP4'
+import video2 from '../assets/platinumvideo.MP4'
+import video3 from '../assets/video.MP4'
+import video4 from '../assets/tractorvideo.MP4'
 
 
 function Gallery() {

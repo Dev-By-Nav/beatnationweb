@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
-import video from '../../assets/platinumvideo.mp4';
+import video from '../../assets/platinumvideo.MP4';
 import package4img from '../../assets/Packages/package4.jpg'
 
 
