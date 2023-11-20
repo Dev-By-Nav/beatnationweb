@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+
+import Home from './Pages/Home'
+import Gallery from './Pages/Gallery'
+import Services from './Pages/Services'
+import Contact from './Pages/Contact'
+import Error from './Pages/Error'
+import Silver from './Pages/Packages/Silver'
+import Bronze from './Pages/Packages/Bronze'
+import Platinum from './Pages/Packages/Platinum'
+import Gold from './Pages/Packages/Gold'
+import Custom from './Pages/Packages/Custom'
+import Band from './Pages/Packages/Band'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className=''>
+      <Routes>
+        <Route exact path='/' element={<Home />}></Route>
+        <Route exact path='/gallery' element={<Gallery />}></Route>
+        <Route exact path='/services' element={<Services />}></Route>
+        <Route exact path='/contact-us' element={<Contact />}></Route>
+
+        <Route exact path='/package1' element={<Bronze />}></Route>
+        <Route exact path='/package2' element={<Silver />}></Route>
+        <Route exact path='/package3' element={<Gold />}></Route>
+        <Route exact path='/package4' element={<Platinum />}></Route>
+        <Route exact path='/custom-package' element={<Custom />}></Route>
+        <Route exact path='/band' element={<Band />}></Route>
+        
+
+        <Route path='/*' element={<Error />}></Route>
+      </Routes>
+
+    </div>
   )
 }
 
