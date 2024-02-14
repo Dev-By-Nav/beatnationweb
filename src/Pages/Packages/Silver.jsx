@@ -11,7 +11,7 @@ function Silver() {
     <div className='bg-bn-navy h-full w-full overflow-hidden'>
       <Navbar />
 
-      <h1 className="text-2xl font-bold mb-4 mt-0 text-bn-gold font-montserrat flex flex-col items-center justify-center p-8">Silver</h1>
+      <h1 className="text-2xl font-bold mb-4 mt-0 text-bn-gold font-montserrat flex flex-col items-center justify-center p-8">Beat Nation Essentials</h1>
 
 
       <div className='flex justify-center'>
