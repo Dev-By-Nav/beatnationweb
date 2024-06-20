@@ -3,7 +3,7 @@ import logo from '../assets/logo2.png'
 import { useForm, ValidationError } from '@formspree/react';
 
 function Form() {
-  const [state, handleSubmit] = useForm('mleyzewl');
+  const [state, handleSubmit] = useForm('mwpeekvd');
   if (state.succeeded) {
     return (
       <div className='w-full'>
