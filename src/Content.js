@@ -22,8 +22,14 @@ import image21 from './assets/Gallery/image21.jpeg';
 import image22 from './assets/Gallery/image22.jpeg';
 import image23 from './assets/Gallery/image23.jpeg';
 import image24 from './assets/Gallery/image24.jpeg';
+import image26 from './assets/Gallery/image26.jpeg';
+import image27 from './assets/Gallery/image27.jpeg';
+import image28 from './assets/Gallery/image28.jpeg';
+import image29 from './assets/Gallery/image29.jpeg';
 
-const images = [image1, image2, image3, image4, image5, image7, image8, image9, image13, image18, image19, image20, image22, image23, image24];
+
+
+const images = [image26, image27, image3, image4, image5, image7, image8, image9, image13, image19, image20, image22, image24, image28, image29];
 
 const textContent = {
   heading: "Welcome to our Gallery",
